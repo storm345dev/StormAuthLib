@@ -6,6 +6,7 @@
   <name>StormAuthLib</name>
   <description>Java implementation of http://stormdev.org 's RESTful login API. For more information see http://stormdev.org/projects/StormDev+Logins</description>
   <build>
+  	<finalName>StormAuthLib</finalName>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
@@ -14,7 +15,6 @@
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
-          <finalName>StormAuthLib</finalName>
         </configuration>
       </plugin>
     </plugins>
