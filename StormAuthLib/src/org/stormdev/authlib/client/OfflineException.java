@@ -1,7 +1,7 @@
 package org.stormdev.authlib.client;
 
 /**
- * An exception thrown by StormAuthClient when a request to StormDev fails. (Either StormDev or you are offline)
+ * An exception thrown by StormAuthClient when a request to StormDev fails. (Either StormDev.org or you are offline)
  *
  */
 public class OfflineException extends Exception {
